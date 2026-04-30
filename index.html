@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Om Verma - B.Tech AI/DS Student, Python Developer & Cloud Enthusiast. Professional Portfolio.">
+    <title>Om Verma | AI/DS Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    <canvas id="particles"></canvas>
+    <div class="side-border left-border"></div>
+    <div class="side-border right-border"></div>
+
+    <nav>
+        <div class="logo">Om<span>.AI</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content reveal">
+            <h3 class="greeting">Hello, World! I am</h3>
+            <h1 class="name">Om Verma</h1>
+            <h2 class="typing-text"><span id="typed"></span><span class="cursor">|</span></h2>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                <a href="#" class="btn btn-outline">Download Resume <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-container reveal">
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="assets/profile.png" alt="Om Verma">
+                </div>
+            </div>
+            <div class="about-text">
+                <p>I am Om Verma, currently pursuing my B.Tech in Artificial Intelligence & Data Science from PIEMR Indore. I have a deep passion for learning new things, exploring emerging technologies, and building innovative solutions.</p>
+                <p>My interests lie heavily in AI, cloud computing, and software development, where I strive to solve complex problems and create meaningful impact through code.</p>
+                
+                <div class="highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-brain"></i>
+                        <span>Problem Solver</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-rocket"></i>
+                        <span>Fast Learner</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Tech Enthusiast</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <h2 class="section-title reveal">My <span>Skills</span></h2>
+        <div class="skills-container reveal">
+            <div class="skill-card">
+                <i class="fab fa-python skill-icon"></i>
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code skill-icon"></i>
+                <h3>C++</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cloud skill-icon"></i>
+                <h3>Cloud Computing</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="section-padding">
+        <h2 class="section-title reveal">Proficiency <span>Graph</span></h2>
+        <div class="chart-container glass-card reveal">
+            <canvas id="skillsChart"></canvas>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+        <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+        <div class="projects-container reveal">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/project1.png" alt="AI Chatbot">
+                </div>
+                <div class="project-info">
+                    <h3>AI Chatbot</h3>
+                    <p>An intelligent conversational agent built using advanced NLP models to assist users in real-time.</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>NLP</span><span>AI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="assets/project2.png" alt="Cloud-Based Application">
+                </div>
+                <div class="project-info">
+                    <h3>Cloud-Based App</h3>
+                    <p>A highly scalable, distributed web application deployed on modern cloud infrastructure.</p>
+                    <div class="tech-stack">
+                        <span>Cloud</span><span>AWS/Azure</span><span>Docker</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="placeholder-img"><i class="fas fa-laptop-code"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A premium, neon-themed personal developer portfolio with glassmorphism UI and smooth animations.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="education" class="section-padding">
+        <h2 class="section-title reveal">Education & <span>Experience</span></h2>
+        <div class="timeline-container reveal">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>B.Tech - Artificial Intelligence & Data Science</h3>
+                        <h4>PIEMR, Indore</h4>
+                        <p>Currently pursuing my engineering degree, focusing on core AI algorithms, data structures, and advanced computing.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Cloud Technology Learning</h3>
+                        <h4>Self-Taught / Certifications</h4>
+                        <p>Exploring and building practical skills in modern cloud platforms and deployment architectures.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Content Creation & Tech Enthusiast</h3>
+                        <h4>Continuous Development</h4>
+                        <p>Continuously learning new tech stacks and creating content to share knowledge with the developer community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+        <div class="contact-container reveal">
+            <div class="contact-cards">
+                <a href="mailto:omv79290@gmail.com" class="contact-card glass-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>omv79290@gmail.com</p>
+                </a>
+                <a href="tel:8815861322" class="contact-card glass-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone</h3>
+                    <p>+91 8815861322</p>
+                </a>
+                <a href="https://www.linkedin.com/in/om-verma-5039953a8/" target="_blank" class="contact-card glass-card">
+                    <i class="fab fa-linkedin-in"></i>
+                    <h3>LinkedIn</h3>
+                    <p>Connect with me</p>
+                </a>
+                <a href="https://github.com/omverma12" target="_blank" class="contact-card glass-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>View my repos</p>
+                </a>
+                <a href="https://www.instagram.com/om_verma4?igsh=MW1qNmU1Nm93dmpj" target="_blank" class="contact-card glass-card">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>Follow me</p>
+                </a>
+            </div>
+            
+            <form class="contact-form glass-card">
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">Om<span>.AI</span></div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/om-verma-5039953a8/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/omverma12" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/om_verma4?igsh=MW1qNmU1Nm93dmpj" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2026 Om Verma. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
